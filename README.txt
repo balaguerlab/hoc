@@ -31,7 +31,7 @@ basicStatsCorrelSign: Provides stats to compare the sign of correlations
 BatchBasicStatsVariability: Provides stats to compare means of correlations absolute magnitude e.g., Fig. S1
 BatchExamples: Demostrates single-unit and correlation plots
 renumTrials, plotFinalAverages: Auxiliary functions for the previous batch file
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 License shadedErrorBar
 Copyright (c) 2014, Rob Campbell
