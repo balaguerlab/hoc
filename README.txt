@@ -1,11 +1,16 @@
 High-order noise correlation utilities in Matlab v1_0beta.
+
 horc1_0b. Current revision of this text 23 Nov 2020. Subject to MIT license: https://opensource.org/licenses/MIT
 by Emili Balaguer-Ballester et al. (see citation below)  https://staffprofiles.bournemouth.ac.uk/display/eb-ballester
+
 Balaguer Lab 
-Faculty of Science and Technology,
-Interdisciplinary neuroscience research centre, Bournemouth University. https://research.bournemouth.ac.uk/centre/interdisciplinary-neuroscience-research/
+
+Faculty of Science and Technology, Interdisciplinary neuroscience research centre, Bournemouth University. https://research.bournemouth.ac.uk/centre/interdisciplinary-neuroscience-research/
+
 Citation for this code: Balaguer-Ballester, E., Nogueira, R., Abofalia, J.M., Moreno-Bote, R. Sanchez-Vives, M.V., 2020. Representation of Foreseeable Choice Outcomes in Orbitofrontal Cortex Triplet-wise Interactions. Plos Computational Biology, 16(6): e1007862.
-Requirements: Matlab © 2018 or more recent, parallel computing and statistics and machine learning libraries, shadedErrorBar function © 2014, Rob Campbell.
+
+Requirements: Matlab Â© 2018 or more recent, parallel computing and statistics and machine learning libraries, shadedErrorBar function Â© 2014, Rob Campbell.
+
 .\
 Functions.
 diffCorr: Calculates the differential correlation shown in the supplementary methods (Methods S1, Figure S5)
@@ -17,6 +22,7 @@ noiseCorr_5thorder: Fifth-order Pearson noise correlations
 variabilitySingleUnits: Plots of rates, variances, fano factors.
 plotLines, plotAllLines: Trivial display functions to plot lines delimiting specific periods
 residualsDataset: Trival regression from the previous trial to remove autocorrelation (Methods eqn. 2).
+
 .\example
 Batch files and examples 
 BatchDifferentialCorrel: Demonstrates the differential correlation in specific period of the trials (Methods S1, Figure S5)
@@ -25,6 +31,7 @@ basicStatsCorrelSign: Provides stats to compare the sign of correlations
 BatchBasicStatsVariability: Provides stats to compare means of correlations absolute magnitude e.g., Fig. S1
 BatchExamples: Demostrates single-unit and correlation plots
 renumTrials, plotFinalAverages: Auxiliary functions for the previous batch file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 License shadedErrorBar
 Copyright (c) 2014, Rob Campbell
