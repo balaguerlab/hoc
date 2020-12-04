@@ -1,4 +1,4 @@
-Higher-order noise correlation utilities in Matlab v1.0-beta.
+﻿Higher-order noise correlation utilities in Matlab v1.0-beta.
 
 https://zenodo.org/badge/latestdoi/316573748
 
@@ -11,8 +11,7 @@ Faculty of Science and Technology, Interdisciplinary neuroscience research centr
 
 Citation for this code: Balaguer-Ballester, E., Nogueira, R., Abofalia, J.M., Moreno-Bote, R. Sanchez-Vives, M.V., 2020. Representation of Foreseeable Choice Outcomes in Orbitofrontal Cortex Triplet-wise Interactions. Plos Computational Biology, 16(6): e1007862.
 
-Requirements: Matlab © 2018 or more recent, parallel computing and statistics and machine learning libraries, shadedErrorBar function © 2014, Rob Campbell.
-
+Requirements: Matlab © 2018 or more recent, parallel computing and statistics and machine learning libraries.
 .\
 Functions.
 diffCorr: Calculates the differential correlation shown in the supplementary methods (Methods S1, Figure S5)
@@ -33,9 +32,9 @@ basicStatsCorrelSign: Provides stats to compare the sign of correlations
 BatchBasicStatsVariability: Provides stats to compare means of correlations absolute magnitude e.g., Fig. S1
 BatchExamples: Demostrates single-unit and correlation plots
 renumTrials, plotFinalAverages: Auxiliary functions for the previous batch file
----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 
-License shadedErrorBar
+License shadedErrorBar.m function
 Copyright (c) 2014, Rob Campbell
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
