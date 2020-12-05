@@ -14,23 +14,39 @@ Citation for this code: Balaguer-Ballester, E., Nogueira, R., Abofalia, J.M., Mo
 Requirements: Matlab © 2018 or more recent, parallel computing and statistics and machine learning libraries.
 .\
 Functions.
+
 diffCorr: Calculates the differential correlation shown in the supplementary methods (Methods S1, Figure S5)
+
 get_period: Retrieves a specific temporal period during the trial
+
 noiseCorr: Standard noise correlations
+
 noiseCorr_3rdorder: Triplet-wise Pearson noise correlations
+
 noiseCorr_4thorder: Quadruplet-wise Pearson noise correlations
+
 noiseCorr_5thorder: Fifth-order Pearson noise correlations
-variabilitySingleUnits: Plots of rates, variances, fano factors.
+
+variabilitySingleUnits: Plots of rates, variances, fano factors
+
 plotLines, plotAllLines: Trivial display functions to plot lines delimiting specific periods
-residualsDataset: Trival regression from the previous trial to remove autocorrelation (Methods eqn. 2).
+
+residualsDataset: Trival regression from the previous trial to remove autocorrelation (Methods eqn. 2)
 
 .\example
+
 Batch files and examples 
+
 BatchDifferentialCorrel: Demonstrates the differential correlation in specific period of the trials (Methods S1, Figure S5)
+
 BatchBasicStatsCorrelSign: Demonstrates the comparison of sings of correlations e.g., Figures 6, 7, S4 
+
 basicStatsCorrelSign: Provides stats to compare the sign of correlations
+
 BatchBasicStatsVariability: Provides stats to compare means of correlations absolute magnitude e.g., Fig. S1
+
 BatchExamples: Demostrates single-unit and correlation plots 
+
 renumTrials, plotFinalAverages: Auxiliary functions for the previous batch file
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
