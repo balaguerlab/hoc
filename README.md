@@ -30,8 +30,9 @@ BatchDifferentialCorrel: Demonstrates the differential correlation in specific p
 BatchBasicStatsCorrelSign: Demonstrates the comparison of sings of correlations e.g., Figures 6, 7, S4 
 basicStatsCorrelSign: Provides stats to compare the sign of correlations
 BatchBasicStatsVariability: Provides stats to compare means of correlations absolute magnitude e.g., Fig. S1
-BatchExamples: Demostrates single-unit and correlation plots
+BatchExamples: Demostrates single-unit and correlation plots 
 renumTrials, plotFinalAverages: Auxiliary functions for the previous batch file
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 License for 'shadedErrorBar.m' function
