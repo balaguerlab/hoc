@@ -1,6 +1,6 @@
 Higher-order noise correlation utilities in Matlab v1.0-beta.1
 
-https://zenodo.org/badge/latestdoi/316573748
+https://zenodo.org/badge/DOI/10.5281/zenodo.4307741.svg
 
 horc1.0-beta.1 Current revision of this text 23 Nov 2020. Under the terms of the MIT license: https://opensource.org/licenses/MIT
 by Emili Balaguer-Ballester et al. (see citation below)  https://staffprofiles.bournemouth.ac.uk/display/eb-ballester
